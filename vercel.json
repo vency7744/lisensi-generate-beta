@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "generate-license.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "validate-license.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/generate-license",
+      "dest": "generate-license.js"
+    },
+    {
+      "src": "/api/validate-license",
+      "dest": "validate-license.js"
+    }
+  ]
+}

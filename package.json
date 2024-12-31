@@ -1,0 +1,19 @@
+{
+  "name": "license-system",
+  "version": "1.0.0",
+  "description": "Simple license generation and validation API",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "13.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
